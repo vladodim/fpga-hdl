@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# cleanup first
+rm dsp.out
+rm dsp.vcd
+
+# compile the verilog sources (testbench and RTL)
+iverilog -o dsp.out  dsp_tb.v stream_source.v stream_drain.v
+
+# run the simulation
+vvp dsp.out
+
+# open the waveform and detach it
+gtkwave dsp.vcd gtkwave.sav &

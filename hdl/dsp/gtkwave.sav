@@ -1,0 +1,16 @@
+[timestart] 0
+[size] 1024 718
+[pos] -1 -1
+*-7.933573 17 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] dsp_tb.
+@28
+dsp_tb.clk
+dsp_tb.rst
+dsp_tb.vld
+dsp_tb.rdy
+dsp_tb.trn
+@22
+dsp_tb.dat[15:0]
+dsp_tb.cnt[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
